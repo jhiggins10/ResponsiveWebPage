@@ -1,0 +1,122 @@
+#ReviewText, #headerText{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#centerText {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .navbarBott {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbarBott a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .navbarBott a:hover {
+    background-color: #77C8E2;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbarBott a.active {
+    background-color: #77C8E2;
+    color: white;
+  }
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    #ReviewText{
+        font-size:6vw;
+    }
+    
+    #headerText{
+        font-size:8vw;
+        text-align: center;
+    }
+    
+    #imageSize{
+    width:100%;
+    }
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        #ReviewText{
+            font-size:8vw;
+        }
+        
+        #headerText{
+            font-size:10vw;
+            text-align: center;
+        }
+        
+        #imageSize{
+        width:100%;
+        }
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        #ReviewText{
+            font-size:10vw;
+        }
+        
+        #headerText{
+            font-size:12vw;
+            text-align: center;
+        }
+        
+        #imageSize{
+        width:100%;
+        }
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+        #ReviewText{
+            font-size:10vw;
+        }
+        
+        #headerText{
+            font-size:12vw;
+            text-align: center;
+        }
+        
+        #imageSize{
+        width:100%;
+        }
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+        #ReviewText{
+            font-size:10vw;
+        }
+        
+        #headerText{
+            font-size:12vw;
+            text-align: center;
+        }
+        
+        #imageSize{
+        width:100%;
+        }
+    }
